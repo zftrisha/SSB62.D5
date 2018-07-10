@@ -1,0 +1,311 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: #0C073D;
+
+
+}
+header{
+	
+	background-color: #0C073D; 
+	overflow: hidden;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 85%;
+}
+.logo {
+	width: 20%;
+	float: left;
+}
+
+.menu {
+  overflow: hidden;
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+  list-style-type: none;
+  padding: 20px 0px;
+  padding-left: 60px;
+  float: left;
+}
+.menu ul li a{
+	    text-decoration: none;
+    	display: block;
+    	color: #858994;
+    	transition: 1s;
+}
+.menu ul li a:hover {
+	color: blue;
+}
+
+.banner {
+	background-image: url("../images/bnr.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-height: 400px;
+	overflow: hidden;
+
+}
+
+.center {
+	width: 40%;
+	min-height: 350;
+	padding: 80px 0px 18px 0px;
+}
+
+.center.up {
+	width: 100%;
+	min-height: 250;
+	background-color:rgba(255,20,50,. 4);
+}
+.center.up .content h1{
+	font-size: 20px;
+	color: #F4F6F5;
+	line-height: 13px;
+	word-spacing: 10px;
+	padding-bottom: 15px;
+}
+.center.up .content h2{
+	font-size: 25px;
+	color: #1C6D99; 
+	line-height: 10px;
+	word-spacing: 10px;
+	padding-bottom: 15px;
+}
+.center.up .content p{
+	font-size:  20px;
+	color: #F4F6F5;
+	padding-top: 10px;
+}
+.button {
+	width: 100%;
+	min-height: 100;
+}
+.button button {
+padding: 5px 15px;
+background-color: white;
+color: black;
+}
+
+.contact.us {
+	background-color: #0C083B;
+	min-height: 300px;
+	overflow: hidden;
+}
+.contact.us1 {
+	border-right: 1px solid #282923;
+	min-height: 298px;
+	width: 28%;
+	overflow: hidden;
+	float: left;
+	padding: 20px;
+
+}
+.contact1top{
+	min-height: 100px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.contact1.icon {
+	width: 20%;
+	min-height: 50px;
+	float: left;
+	overflow: hidden;
+}
+
+.contact1.name {
+	width: 75%;
+	min-height: 60px;
+	padding-left: 10px;
+	padding-top: 18px;
+	float: left;
+}
+.contact1.name h1{
+	color: #F5F5F5;
+
+}
+.contact1.name h2{
+	color: #1D679D;
+
+}
+.contact1down{
+	min-height: 150px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.contact1.details {
+	color: #DBDDE0;
+}
+
+.contact.us2 {
+	background-color: #0C083B;
+	min-height: 320px;
+	width: 30%;
+	float: left;
+	padding: 20px;
+	border-right:1px solid #282923;
+}
+.contact2top{
+	min-height: 100px;
+	width: 100%;
+	overflow: hidden;
+}
+.contact2.icon {
+	width: 20%;
+	height: 20px;
+	float: left;
+}
+
+.contact2.name 	{
+	width: 75%;
+	min-height: 60px;
+	padding-left: 10px;
+	padding-top: 18px;
+	float: left;
+}
+.contact2down{
+	min-height: 150px;
+	width: 100%;
+	overflow: hidden;
+}
+.contact2.name h1{
+	color: #F5F5F5;
+
+}
+.contact2.name h2{
+	color: #1D679D;
+
+}
+.contact2.details {
+	color: #DBDDE0;
+}
+
+
+.contact.us3 {
+	background-color: #0C083B;
+	min-height: 320px;
+	width: 27%;
+	float: left;
+	padding: 20px;
+}
+.contact3top{
+	min-height: 100px;
+	width: 100%;
+	overflow: hidden;
+}
+.contact3.icon {
+	width: 20%;
+	height: 20px;
+	float: left;
+}
+
+.contact3.name {
+	
+	width: 75%;
+	min-height: 60px;
+	padding-left: 10px;
+	padding-top: 18px;
+	float: left;
+}
+
+.contact3down{
+	min-height: 150px;
+	width: 100%;
+	overflow: hidden;
+}
+.contact3.name h1{
+	color: #F5F5F5;
+
+}
+.contact3.name h2{
+	color: #1D679D;
+
+}
+.contact3.details {
+	color: #DBDDE0;
+}
+
+.footer {
+	background-color: #0C073D;
+	overflow: hidden;
+	min-height: 250px;
+}
+
+.footer1 {
+	width: 28%;
+	color: #c2c2a3;
+	overflow: hidden;
+	float: left;
+
+	padding: 10px;
+}
+
+.footer2 {
+	width: 28%;
+	overflow: hidden;
+	float: left;
+}
+.footer2up {
+
+	color: #c2c2a3;
+	min-height: 170px;
+	width: 100%;
+	float: left;
+}
+.footer2down {
+	color: #c2c2a3;
+	width: 100%;
+	min-height: 75px;
+	float: left;
+}
+
+.footer3 {
+	width: 40%;
+	overflow: hidden;
+	float: left;
+}
+
+.footer3left {
+	width: 38%;
+	float: left;
+	text-align: center;
+}
+
+.footer3right {
+	width: 55%;
+	color: #F2F2F2;
+	float: left;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+.footer3right h1{
+	color: blue;
+}
+.footer.last {
+	min-height: 60px;
+	overflow: hidden;
+}
+
+.footer.last.left {
+	min-height: 58px;
+	width: 60%;
+	float: left;
+}
+.footer.last.left{
+	color: #b8b894;
+}
+
+.footer.last.right {
+	min-height: 58px;
+	width: 35%;
+	float: right;
+}
